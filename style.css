@@ -171,3 +171,28 @@ main{
     color: black;
     font-size: larger;
   }
+
+@media screen and (max-width:950px) {
+    .double{
+        flex-direction: column;
+    }
+    .red, 
+    .blue, 
+    .orange, 
+    .cyan{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    body{
+        width: 100%;
+    }
+    .param{
+        width: 80%;
+    }
+    header{
+        text-align: center;
+    }
+}
